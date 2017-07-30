@@ -1,5 +1,5 @@
 // $(document).ready(function() {
-$("#zoomZone1,#zoomZone2,#zoomZone3,#zoomZone4,#zoomZone5").click(function(evt) {
+$('.zoomZone').click(function(evt) {
     evt.stopPropagation();
     evt.preventDefault();
     $(this).zoomTo({ debug: false, nativeanimation: true });
