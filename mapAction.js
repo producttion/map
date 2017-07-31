@@ -27,7 +27,7 @@ function clickCheck() {
         console.log(setBound);
         var setValue = $(this).attr("value");
         console.log(setValue);
-        dbRef.child(`users/data/${setBound}`)
+        dbRef.child(`users/data${setValue}`)
             .set({
                 [setBound]: setValue,
                 [setChecked]: set$Checked
@@ -37,13 +37,13 @@ function clickCheck() {
 }
 
 //   setInterval(function () {
-            var getBound = $('.button', this).text();
-            var getChecked = $('input', this).attr("value");
-            var test = firebase.database().ref(`users/data/a1/a1`)
-                .on('value', function (snapshot) {
-                    var snap = snapshot.val();
-                    var num0 = 0;
-                    console.log('firebase:' + snap)
-                })
-            console.log('getBound:')
+            // var getBound = $('.button', this).text();
+            // var getChecked = $('input', this).attr("value");
+            // var test = firebase.database().ref(`users/data/a1/a1`)
+            //     .on('value', function (snapshot) {
+            //         var snap = snapshot.val();
+            //         var num0 = 0;
+            //         console.log('firebase:' + snap)
+            //     })
+            // console.log('getBound:')
         // })

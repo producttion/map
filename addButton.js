@@ -29,19 +29,19 @@ $(document).ready(function () {
     }, 0)
 
     // Zone2
-    var endZone2 = setInterval(function () {
-      if (addZone2 == createZone2) {
-        clearInterval(endZone2);
-      }
-      zone2.append('<a class="button" style="width:100%;height:30px;">' + addZone2 + '<input type="checkbox" style="width:30%;height:21.25px;float:right;"></a>');
-      var newList = $('#zone2');
-      newList.fadeIn();
-      var colorEnd = setInterval(function () {
-        newList.css('color', 'black');
-        clearInterval(colorEnd);
-      }, 0);
-      addZone2 = addZone2 + 1;
+    // var endZone2 = setInterval(function () {
+    //   if (addZone2 == createZone2) {
+    //     clearInterval(endZone2);
+    //   }
+    //   zone2.append('<a class="button" style="width:100%;height:30px;">' + addZone2 + '<input type="checkbox" style="width:30%;height:21.25px;float:right;"></a>');
+    //   var newList = $('#zone2');
+    //   newList.fadeIn();
+    //   var colorEnd = setInterval(function () {
+    //     newList.css('color', 'black');
+    //     clearInterval(colorEnd);
+    //   }, 0);
+    //   addZone2 = addZone2 + 1;
 
-    }, 0);
+    // }, 0);
   });
 });
