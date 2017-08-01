@@ -15,33 +15,33 @@ $(document).ready(function () {
   var box14 = $('#box14');
 
   var addBox1 = 1;
-  var addBox2 = 15;
-  var addBox3 = 29;
-  var addBox4 = 21;
-  var addBox5 = 23;
-  var addBox6 = 33;
-  var addBox7 = 37;
-  var addBox8 = 0;
-  var addBox9 = 0;
-  var addBox10 = 0;
-  var addBox11 = 0;
-  var addBox12 = 0;
+  var addBox2 = 19;
+  var addBox3 = 37;
+  var addBox4 = 55;
+  var addBox5 = 63;
+  var addBox6 = 72;
+  var addBox7 = 73;
+  var addBox8 = 76;
+  var addBox9 = 79;
+  var addBox10 = 97;
+  var addBox11 = 115;
+  var addBox12 = 133;
   var addBox13 = 0;
   var addBox14 = 0;
 
 
-  var createBox1 = 14;
-  var createBox2 = 28;
-  var createBox3 = 42;
-  var createBox4 = 22;
-  var createBox5 = 32;
-  var createBox6 = 36;
-  var createBox7 = 44;
-  var createBox8 = 0;
-  var createBox9 = 0;
-  var createBox10 = 0;
-  var createBox11 = 0;
-  var createBox12 = 0;
+  var createBox1 = 18;
+  var createBox2 = 36;
+  var createBox3 = 54;
+  var createBox4 = 62;
+  var createBox5 = 71;
+  var createBox6 = 72;
+  var createBox7 = 75;
+  var createBox8 = 78;
+  var createBox9 = 96;
+  var createBox10 = 114;
+  var createBox11 = 132;
+  var createBox12 = 150;
   var createBox13 = 0;
   var createBox14 = 0;
 
@@ -51,7 +51,7 @@ $(document).ready(function () {
       if (addBox1 == createBox1) {
         clearInterval(endBox1);
       }
-      box1.append("<label  onClick='clickCheck()'  class='button' value=" + addBox1 + " for=" + 'check' + addBox1 + " style='width:100%;height:36px;'><input id=" + 'check' + addBox1 + " value=" + 'check' + addBox1 + " type='checkbox' style='width:100%;height:34px;'></label >");
+      box1.append("<label  onClick='clickCheck()'  class='button' value=" + addBox1 + " for=" + 'check' + addBox1 + " style='width:100%;height:27.8px;'><input id=" + 'check' + addBox1 + " value=" + 'check' + addBox1 + " type='checkbox' style='width:100%;height:25px;'></label >");
       var newList = $('#box1');
       newList.fadeIn();
       var colorEnd = setInterval(function () {
@@ -67,7 +67,7 @@ $(document).ready(function () {
       if (addBox2 == createBox2) {
         clearInterval(endBox2);
       }
-      box2.append("<label  onClick='clickCheck()'  class='button' value=" + addBox2 + " for=" + 'check' + addBox2 + " style='width:100%;height:36px;'><input id=" + 'check' + addBox2 + " value=" + 'check' + addBox2 + " type='checkbox' style='width:100%;height:34px;'></label >");
+      box2.append("<label  onClick='clickCheck()'  class='button' value=" + addBox2 + " for=" + 'check' + addBox2 + " style='width:100%;height:27.8px;'><input id=" + 'check' + addBox2 + " value=" + 'check' + addBox2 + " type='checkbox' style='width:100%;height:25px;'></label >");
       var newList = $('#box2');
       newList.fadeIn();
       var colorEnd = setInterval(function () {
@@ -83,7 +83,7 @@ $(document).ready(function () {
       if (addBox3 == createBox3) {
         clearInterval(endBox3);
       }
-      box3.append("<label  onClick='clickCheck()'  class='button' value=" + addBox3 + " for=" + 'check' + addBox3 + " style='width:100%;height:36px;'><input id=" + 'check' + addBox3 + " value=" + 'check' + addBox3 + " type='checkbox' style='width:100%;height:34px;'></label >");
+      box3.append("<label  onClick='clickCheck()'  class='button' value=" + addBox3 + " for=" + 'check' + addBox3 + " style='width:100%;height:27.8px;'><input id=" + 'check' + addBox3 + " value=" + 'check' + addBox3 + " type='checkbox' style='width:100%;height:25px;'></label >");
       var newList = $('#box3');
       newList.fadeIn();
       var colorEnd = setInterval(function () {
@@ -94,6 +94,153 @@ $(document).ready(function () {
 
     }, 0);
 
+     // Box4
+    var endBox4 = setInterval(function () {
+      if (addBox4 == createBox4) {
+        clearInterval(endBox4);
+      }
+      box4.append("<label  onClick='clickCheck()'  class='button' value=" + addBox4 + " for=" + 'check' + addBox4 + " style='width:27.8px;height:100%;'><input id=" + 'check' + addBox4 + " value=" + 'check' + addBox4 + " type='checkbox' style='width:25px;height:100%;'></label >");
+      var newList = $('#box4');
+      newList.fadeIn();
+      var colorEnd = setInterval(function () {
+        newList.css('color', 'black');
+        clearInterval(colorEnd);
+      }, 0);
+      addBox4 = addBox4 + 1;
+
+    }, 0);
+
+    // Box5
+    var endBox5 = setInterval(function () {
+      if (addBox5 == createBox5) {
+        clearInterval(endBox5);
+      }
+      box5.append("<label  onClick='clickCheck()'  class='button' value=" + addBox5 + " for=" + 'check' + addBox5 + " style='width:100%;height:27.8px;'><input id=" + 'check' + addBox5 + " value=" + 'check' + addBox5 + " type='checkbox' style='width:100%;height:25px;float:left;'></label >");
+      var newList = $('#box5');
+      newList.fadeIn();
+      var colorEnd = setInterval(function () {
+        newList.css('color', 'black');
+        clearInterval(colorEnd);
+      }, 0);
+      addBox5 = addBox5 + 1;
+
+    }, 0);
+
+        // Box6
+    var endBox6 = setInterval(function () {
+      if (addBox6 == createBox6) {
+        clearInterval(endBox6);
+      }
+      box6.append("<label  onClick='clickCheck()'  class='button' value=" + addBox6 + " for=" + 'check' + addBox6 + " style='width:27.8px;height:100%;'><input id=" + 'check' + addBox6 + " value=" + 'check' + addBox6 + " type='checkbox' style='width:25px;height:100%;float:left;'></label >");
+      var newList = $('#box6');
+      newList.fadeIn();
+      var colorEnd = setInterval(function () {
+        newList.css('color', 'black');
+        clearInterval(colorEnd);
+      }, 0);
+      addBox6 = addBox6 + 1;
+
+    }, 0);
+
+            // Box7
+    var endBox7 = setInterval(function () {
+      if (addBox7 == createBox7) {
+        clearInterval(endBox7);
+      }
+      box7.append("<label  onClick='clickCheck()'  class='button' value=" + addBox7 + " for=" + 'check' + addBox7 + " style='width:27.8px;height:100%;'><input id=" + 'check' + addBox7 + " value=" + 'check' + addBox7 + " type='checkbox' style='width:25px;height:100%;float:left;'></label >");
+      var newList = $('#box7');
+      newList.fadeIn();
+      var colorEnd = setInterval(function () {
+        newList.css('color', 'black');
+        clearInterval(colorEnd);
+      }, 0);
+      addBox7 = addBox7 + 1;
+
+    }, 0);
+
+
+
+     // Box8
+    var endBox8 = setInterval(function () {
+      if (addBox8 == createBox8) {
+        clearInterval(endBox8);
+      }
+      box8.append("<label  onClick='clickCheck()'  class='button' value=" + addBox8 + " for=" + 'check' + addBox8 + " style='width:27.7px;height:100%;'><input id=" + 'check' + addBox8 + " value=" + 'check' + addBox8 + " type='checkbox' style='width:25px;height:100%;float:left;'></label >");
+      var newList = $('#box8');
+      newList.fadeIn();
+      var colorEnd = setInterval(function () {
+        newList.css('color', 'black');
+        clearInterval(colorEnd);
+      }, 0);
+      addBox8 = addBox8 + 1;
+
+    }, 0);
+
+
+    // Box9
+    var endBox9 = setInterval(function () {
+      if (addBox9 == createBox9) {
+        clearInterval(endBox9);
+      }
+      box9.append("<label  onClick='clickCheck()'  class='button' value=" + addBox9 + " for=" + 'check' + addBox9 + " style='width:27.7px;height:100%;'><input id=" + 'check' + addBox9 + " value=" + 'check' + addBox9 + " type='checkbox' style='width:25px;height:100%;float:left;'></label >");
+      var newList = $('#box9');
+      newList.fadeIn();
+      var colorEnd = setInterval(function () {
+        newList.css('color', 'black');
+        clearInterval(colorEnd);
+      }, 0);
+      addBox9 = addBox9 + 1;
+
+    }, 0);
+
+    // Box10
+    var endBox10 = setInterval(function () {
+      if (addBox10 == createBox10) {
+        clearInterval(endBox10);
+      }
+      box10.append("<label  onClick='clickCheck()'  class='button' value=" + addBox10 + " for=" + 'check' + addBox10 + " style='width:27.7px;height:100%;'><input id=" + 'check' + addBox10 + " value=" + 'check' + addBox10 + " type='checkbox' style='width:25px;height:100%;float:left;'></label >");
+      var newList = $('#box10');
+      newList.fadeIn();
+      var colorEnd = setInterval(function () {
+        newList.css('color', 'black');
+        clearInterval(colorEnd);
+      }, 0);
+      addBox10 = addBox10 + 1;
+
+    }, 0);
+
+     // Box11
+    var endBox11 = setInterval(function () {
+      if (addBox11 == createBox11) {
+        clearInterval(endBox11);
+      }
+      box11.append("<label  onClick='clickCheck()'  class='button' value=" + addBox11 + " for=" + 'check' + addBox11 + " style='width:27.7px;height:100%;'><input id=" + 'check' + addBox11 + " value=" + 'check' + addBox11 + " type='checkbox' style='width:25px;height:100%;float:left;'></label >");
+      var newList = $('#box11');
+      newList.fadeIn();
+      var colorEnd = setInterval(function () {
+        newList.css('color', 'black');
+        clearInterval(colorEnd);
+      }, 0);
+      addBox11 = addBox11 + 1;
+
+    }, 0);
+
+
+    // Box12
+    var endBox12 = setInterval(function () {
+      if (addBox12 == createBox12) {
+        clearInterval(endBox12);
+      }
+      box12.append("<label  onClick='clickCheck()'  class='button' value=" + addBox12 + " for=" + 'check' + addBox12 + " style='width:27.7px;height:100%;'><input id=" + 'check' + addBox12 + " value=" + 'check' + addBox12 + " type='checkbox' style='width:25px;height:100%;float:left;'></label >");
+      var newList = $('#box12');
+      newList.fadeIn();
+      var colorEnd = setInterval(function () {
+        newList.css('color', 'black');
+        clearInterval(colorEnd);
+      }, 0);
+      addBox12 = addBox12 + 1;
+
+    }, 0);
 
   });
 });
