@@ -1,0 +1,41 @@
+[debug] [2017-08-06T18:12:27.098Z] ----------------------------------------------------------------------
+[debug] [2017-08-06T18:12:27.101Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\my_nu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-08-06T18:12:27.102Z] CLI Version:   3.9.2
+[debug] [2017-08-06T18:12:27.102Z] Platform:      win32
+[debug] [2017-08-06T18:12:27.102Z] Node Version:  v7.6.0
+[debug] [2017-08-06T18:12:27.102Z] Time:          Mon Aug 07 2017 01:12:27 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-06T18:12:27.102Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-06T18:12:27.118Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-06T18:12:27.119Z] > authorizing via signed-in user
+[debug] [2017-08-06T18:12:27.122Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/appjongtaladth  
+ Mon Aug 07 2017 01:12:27 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-06T18:12:28.369Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-06T18:12:28.370Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/appjongtaladth/tokens  
+ Mon Aug 07 2017 01:12:28 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-06T18:12:29.280Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'appjongtaladth'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-08-06T18:12:31.576Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/appjongtaladth/uploads/-Kqsk0YdsaUX6Qa-CUoG?fileCount=15&message=  
+ Mon Aug 07 2017 01:12:31 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-06T18:12:34.083Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-06T18:12:34.083Z] [hosting] .tgz uploaded successfully, waiting for extraction
+[info] +  hosting: 15 files uploaded successfully
+[info] i  starting release process (may take several minutes)...
+[debug] [2017-08-06T18:12:50.841Z] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/appjongtaladth/releases { hosting: 
+   { public: 'public',
+     ignore: [ 'firebase.json', '**/.*', '**/node_modules/**' ],
+     rewrites: [ [Object] ],
+     version: '-Kqsk0YdsaUX6Qa-CUoG',
+     prefix: '-Kqsk0YdsaUX6Qa-CUoG/',
+     manifest: [] } } 
+ Mon Aug 07 2017 01:12:50 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-06T18:12:52.001Z] <<< HTTP RESPONSE 200
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/appjongtaladth/overview
+[info] Hosting URL: https://appjongtaladth.firebaseapp.com
